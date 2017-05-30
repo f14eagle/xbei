@@ -1,0 +1,130 @@
+﻿/*Blocks*/
+
+.block {
+    padding: 15px;
+    margin-bottom: 15px;
+
+    h3 {
+        margin-top: 0;
+        padding-top: 0; 
+    }
+}
+
+.block-space {
+    p {
+        margin: 0 0 10px;
+    }
+}
+.block-primary {
+    @extend .block;
+    @include add-background ($white-color);
+}
+
+.block-center {
+    text-align: center !important;
+}
+.color-block {
+    margin: 5px 0;
+    padding: 15px 0;
+}
+
+.color-block-primary {
+     @extend .color-block;
+     @include add-background ($primary-color);
+}
+
+.color-block-secondary {
+     @extend .color-block;
+     @include add-background ($secondary-color);
+}
+
+.color-block-pink {
+     @extend .color-block;
+     @include add-background ($pink);
+}
+
+.color-block-orange {
+     @extend .color-block;
+     @include add-background ($orange);
+}
+
+.color-block-green {
+     @extend .color-block;
+     @include add-background ($green);
+}
+
+.color-block-purple {
+     @extend .color-block;
+     @include add-background ($purple);
+}
+
+.color-block-shade-1 {
+     @extend .color-block;
+     @include add-background ($shade-1);
+}
+
+.color-block-shade-2 {
+     @extend .color-block;
+     @include add-background ($shade-2);
+}
+
+.color-block-shade-3 {
+     @extend .color-block;
+     @include add-background ($shade-3);
+}
+
+.color-block-shade-4 {
+     @extend .color-block;
+     @include add-background ($shade-4);
+}
+
+.color-block-shade-5 {
+     @extend .color-block;
+     @include add-background ($shade-5);
+}
+
+.color-block-shade-6 {
+     @extend .color-block;
+     @include add-background ($shade-6);
+}
+
+.color-block-shade-7 {
+     @extend .color-block;
+     @include add-background ($shade-7);
+}
+
+.color-block-shade-8 {
+     @extend .color-block;
+     @include add-background ($shade-8);
+}
+
+.color-block-white{
+     @extend .color-block;
+     @include add-background ($white-color);
+     border: $default-solid-border;
+}
+
+.color-block-danger {
+     @extend .color-block;
+     @include add-background ($danger-color);
+}
+
+.color-block-warning {
+     @extend .color-block;
+     @include add-background ($warning-color);
+}
+
+.color-block-info{
+     @extend .color-block;
+     @include add-background ($info-color);
+}
+
+.color-block-success {
+     @extend .color-block;
+     @include add-background ($success-color);
+}
+
+.color-block-inactive{
+     @extend .color-block;
+     @include add-background ($inactive-color);
+}

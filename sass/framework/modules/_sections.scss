@@ -1,0 +1,9 @@
+﻿/*Sections*/
+
+section {
+    padding: 30px 0;
+}
+
+.section-primary {
+   @include add-background ($white-color);
+}

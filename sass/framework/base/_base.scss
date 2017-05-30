@@ -1,0 +1,29 @@
+﻿body {
+    font-family: $body-font;
+    font-size: $font-size-s;
+    line-height: $spacing-s;
+    -ms-overflow-style: scrollbar;
+    padding-bottom: 30px;
+} 
+
+
+a {
+    color: $blue_secondary;
+}
+
+input, textarea, button {
+    @include border-radius (4px);
+}
+
+//This class is for user copy the class name only, it will not used in oar framework
+.class-name-copy-only {
+    color: #ff00f6;
+    cursor: copy;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+}

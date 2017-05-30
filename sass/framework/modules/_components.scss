@@ -1,0 +1,51 @@
+﻿/*Carousel*/
+
+.carousel {
+    margin-bottom: 20px;
+}
+
+.carousel img{
+    padding: 3px;
+    border: $default-solid-border;
+}
+
+.jumbotron {
+    background-color: $shade-8;
+
+    h1 {
+        font-size:60px;
+        margin-bottom:30px;
+    }
+}
+
+/*Table*/
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border: $default-solid-border;
+}
+
+.table > thead > tr > th {
+    vertical-align: bottom;
+    background-color: $table-grid-color;
+    border-bottom:none;
+    }
+
+.avatars-normal {
+    display: inline-block;
+    position: relative;
+    width: 38px;
+    height: 38px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: $default-solid-border;
+
+    .avatars-img {
+    vertical-align:middle;
+    width: 100%;
+    height: auto;
+    margin-top: -5px;
+    }
+}
+

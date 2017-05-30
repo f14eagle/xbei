@@ -1,0 +1,16 @@
+﻿/* Nav bar*/
+.navbar {
+    width: 100%;
+    margin: auto;
+    border: none;
+    min-height: 50px;
+    background-color: $nav-bg-color; 
+    margin-bottom: 30px;
+    @include border-radius (0);
+
+    a{
+        color: $white-color;
+        font-size: $font-size-m;
+    }
+}
+

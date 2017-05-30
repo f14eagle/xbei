@@ -1,0 +1,46 @@
+{
+
+
+
+
+
+
+    "i18n": {
+        "contentPath": "path:./locales",
+        "fallback": "en-US"
+    },
+
+
+    "specialization": {
+    },
+
+    "view engines": {
+        "html": {
+            "name": "ejs",
+            "module": "ejs",
+            "renderer": "renderFile"
+        }
+    },
+
+    "express": {
+        "view engine": "html"
+    },
+
+    "middleware": {
+
+
+
+        "static": {
+            "module": {
+                "arguments": [ "path:./.build" ]
+            }
+        },
+
+        "router": {
+            "module": {
+                "arguments": [{ "directory": "path:./controllers" }]
+            }
+        }
+
+    }
+}

@@ -1,0 +1,37 @@
+﻿/*Footer*/
+
+.footer-main {
+    @include add-background($white-color);
+    border-top: $default-solid-border;
+    padding: 30px 0;
+    z-index: 100;
+
+    a {
+        @include add-background($white-color);
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}

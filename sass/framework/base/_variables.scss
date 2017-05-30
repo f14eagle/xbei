@@ -1,0 +1,187 @@
+﻿// Table of Contents
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+//
+// Global Default Settings
+// -
+// a. Colors
+// b. Style Settings
+// c. Spacing
+// d. Typography
+// e. Base Structure
+//
+//
+// Component Settings
+// -
+//  1. Headers
+//  2. Heroes
+//  3. Navigation
+//  4. Accordian
+//  5. Inputs
+//  6. Buttons
+//  7. Icons
+//  8. Pagination
+//  9. Buckets
+// 10. Media
+// 11. Content Tabs
+// 12. Callouts & Prompts
+
+
+// a. Colors
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+//
+// Shades of Grey
+// (1 denotes the darkest shade. 7 denotes the lightest.)
+$shade-1: #000000;
+$shade-2: #444444;
+$shade-3: #666666;
+$shade-4: #a0a0a0;
+$shade-5: #dddddd;
+$shade-6: #f2f2f2;
+$shade-7: #e8e8e8;
+$shade-8: #f5f5f5;
+
+//Primary Color Secondary Color  
+$primary-color: #009cde;
+$secondary-color: #003087;
+
+// Blues
+$blue: $secondary-color;
+$blue-lighten: lighten($blue,15%);
+
+// Secondary PayPal Blue
+$blue_secondary: $primary-color;
+$blue_secondary_lighten: #005ea6;
+
+// Pink
+$pink: #de0063;
+$pink-lighten: lighten($pink,15%);
+
+// Orange
+$orange: #ff9600;
+$orange-lighten: lighten(orange,15%);
+
+// Green
+$green: #20cf92;
+$green-lighten: lighten($green,15%);
+
+// Purple
+$purple: #640487;
+$purple-lighten: lighten($purple,15%);
+
+// Red
+$red: #dc3022;
+$red-lighten: lighten($red,15%);
+
+// Nav BG
+$nav-bg-color: #393f4e;
+
+// White
+$white-color:  #ffffff;
+
+// Semantic Color red
+$danger-color: #db524b;
+
+// Semantic Color yellow
+$warning-color: #f2ae44;
+
+// Semantic Color blue
+$info-color: $primary-color;
+
+// Semantic Color green
+$success-color: #58B957;
+
+// Semantic Color gray
+$inactive-color: #ced3d5;
+
+// Table Header or Cell colr
+$table-grid-color: #f1f5f9;
+
+// b. Style Settings
+//- - - - - - - - - - - - - - - - - - - - - - - - -
+// These are for defalut styles.
+$body-bg-color: $white-color;
+$default-solid-border: 1px solid $shade-5;
+$default-dash-border: 1px dashed $shade-5;
+$default-border-radius: 4px;
+$hi-spacing-big: 20px 0;
+$hi-spacing-small: 14px 0;
+
+// c. Spacing
+//- - - - - - - - - - - - - - - - - - - - - - - - -
+$spacing-xs: 10px;
+$spacing-s: 20px;
+$spacing-m: 30px;
+$spacing-l: 50px;
+$spacing-xl: 80px;
+
+// d. Typography
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// This is the base font size from which all other dimesions are based.
+$base-font-size: 14px;
+
+//This is font family.
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$body-font: "PayPal Forward", "Helvetica", sans-serif;
+
+//These are all the font size.
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$font-size-xs: 12px;
+$font-size-s: 14px;
+$font-size-m: 16px;
+$font-size-l: 18px;
+$font-size-xl: 24px;
+
+// The font weights that we use.
+$font-weight-light: lighter;
+$font-weight-regular: regular;
+$font-weight-bold: bold;
+
+// These are for default heading styles.
+// .h1
+$h1-font-size: 36px;
+$h1-font-color: $shade-1;
+$h1-font-weight: $font-weight-light;
+$h1-font-style: none;
+
+// .h2
+$h2-font-size: 28px;
+$h2-font-color: $shade-1;
+$h2-font-weight: $font-weight-light;
+$h2-font-style: none;
+
+// .h3
+$h3-font-size: 18px;
+$h3-font-color: $shade-1;
+$h3-font-weight: $font-weight-regular;
+$h3-font-style: none;
+
+// .h4
+$h4-font-size: 14px;
+$h4-font-color: $shade-2;
+$h4-font-weight: $font-weight-regular;
+$h4-font-style: none;
+
+// .h5
+$h5-font-size: 13px;
+$h5-font-color: $shade-4;
+$h5-font-weight: $font-weight-regular;
+$h5-font-style: none;
+
+// .h6
+$h6-font-size: 12px;
+$h6-font-color: $shade-4;
+$h6-font-weight: $font-weight-light;
+$h6-font-style: italic;
+
+
+// e. Base Structure
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+//This is section styles.
+$section-bg-color:  $white-color;
+$section-margin-bottom: 40px;
+$section-padding: 30px 0;
+
+//This is footer styles.
+$footer-bg-color: $section-bg-color;
+$footer-padding: 30px 0;
+

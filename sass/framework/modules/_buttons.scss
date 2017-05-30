@@ -1,0 +1,21 @@
+﻿/*Buttons*/
+
+.btn-primary {
+    @include add-background($blue_secondary);
+    border: 1px solid  $blue_secondary;
+    @include border-radius(4px);
+}
+
+.btn-primary:hover {
+     @include add-background($blue);
+     border: 1px solid  $blue;
+     @include border-radius(4px);
+}
+
+.btn {
+    padding: 6px 20px;
+}
+
+.btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
+    color: $primary-color;
+}
